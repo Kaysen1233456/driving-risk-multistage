@@ -1,0 +1,9 @@
+# Expert API / expert model for RLHF ranking（使用 dashscope messages 方式调用）
+expert_api:
+  name: expert_a
+  type: dashscope
+  # 可选：覆盖 dashscope 基础地址；不填则使用 SDK 默认值
+  base_url: "https://dashscope.aliyuncs.com/api/v1"
+  model: "qwen3.5-plus"
+  # Set DASHSCOPE_API_KEY in the environment. Never commit a real key.
+  api_key: ""
